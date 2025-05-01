@@ -48,3 +48,18 @@ def getBoxes():
     loader.load_image()
     image = loader.get_image()
     return image
+def getITD():
+    loader = ImageLoader('itd.jpg')
+    loader.load_image()
+    image = loader.get_image()
+    return image
+def getSamps():
+    loader = ImageLoader('samps.jpeg')
+    loader.load_image()
+    image = loader.get_image()
+    return image
+def getITD2():
+    loader = ImageLoader('zoomitd.jpeg')
+    loader.load_image()
+    image = loader.get_image()
+    return image
